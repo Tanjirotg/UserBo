@@ -1,1 +1,1 @@
-worker: python3 -m User
+worker: python3 -m user
