@@ -58,7 +58,7 @@ async def demote(_, message):
         can_restrict_members=False,
         can_pin_messages=False,
         can_promote_members=False,
-         can_manage_chat=False,
-         can_manage_video_chats=False    
-      ))
-      await msg.edit(f"Hmm!! demoted 🥺 {admin.mention}")
+        can_manage_chat=False,
+        can_manage_video_chats=False    
+     ))
+     await msg.edit(f"Hmm!! demoted 🥺 {admin.mention}")
