@@ -1,6 +1,6 @@
 from pyrogram import *
 from pyrogram.types import *
-from userbot import piro, SUDO
+from user import *
 
 
 @piro.on_message(filters.command("promote") & filters.user(SUDO))
