@@ -44,7 +44,7 @@ async def main():
     # Add your bot logic here, using piro for Telegram interactions
     # ... (your bot code using piro.on_message, piro.send_message, etc.)
 
-    await piro.run()
 
 if __name__ == '__main__':
     asyncio.run(main())
+    await piro.run()
