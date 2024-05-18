@@ -29,8 +29,8 @@ async def promoting(_, message):
         can_invite_users=True,
         can_manage_video_chats=True,
         can_restrict_members=True
-    ))
-    await msg.edit(f"Alright!! Successful promoted {admin.mention}")
+     ))
+     await msg.edit(f"Alright!! Successful promoted {admin.mention}")
 
 
 @piro.on_message(filters.command("demote") & filters.user(SUDO))
