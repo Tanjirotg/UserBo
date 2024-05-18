@@ -30,7 +30,7 @@ piro = Client(
         session_string=SESSION,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="user/bot") )
+        plugins=dict(root="user/Bot") )
 
     # Add your bot logic here, using piro for Telegram interactions
     # ... (your bot code using piro.on_message, piro.send_message, etc.)
